@@ -1,0 +1,25 @@
+  128  cat Unix_commands.md
+  129  more
+  130  more Unix_commands.md
+  131  cat
+  132  grep "PHP" < wilders.csv | wc -l
+  133  grep "PHP" < wilders.csv | wc -l
+  134  grep "PHP" < wilders.csv | wc -l
+  135  grep "PHP" < wilders.csv | wc -l
+  136  grep "France,2019,PHP" < wilders.csv  | wc -l > php_france_2019.csv
+  137  grep "JavaScript" < wilders.csv > javascript.csv
+  138  grep "Toulouse" < javascript.csv > toulouse.csv
+  139  grep "Toulouse" < javascript.csv > biarritz.csv
+  140  grep "Biarritz" < javascript.csv > biarritz.csv
+  141  cat toulouse.csv biarritz.csv > javascript_biarritz_toulouse.csv
+  142  history
+  143  tail
+  144  history tail
+  145  history tail -n10
+  146  history tail -n 10
+  147  history tail
+  148  history tail -10
+  149  history
+  150  history | tail 
+  151  history | tail -n 25
+  152  history | tail -n 25 > history.txt
